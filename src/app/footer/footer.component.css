@@ -1,0 +1,21 @@
+.ftr-ptn {
+    /*position: fixed;
+    bottom: 0;*/
+}
+
+footer span {}
+
+.footer-fixed {
+    display: flex;
+    justify-content: space-evenly;
+    background: #21384a;
+    color: white;
+    margin-top: 500px;
+    padding: 16px;
+    font-size: 18px;
+}
+
+.footer-fixed a {
+    text-decoration: none;
+    color: white;
+}

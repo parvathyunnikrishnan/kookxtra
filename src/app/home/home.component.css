@@ -1,0 +1,33 @@
+.menu li.active a {
+    border-radius: 6px;
+    padding: 25px;
+    margin-top: 4px;
+    color: dodgerblue !important;
+    transition: transform 450m cubic-bezier(0.6, 0.28, 0.74, 0.05);
+    transform: unset;
+    background: unset;
+}
+
+.menu {
+    list-style-type: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+    /* bottom: 20px; */
+    background: #21384a;
+    top: 0;
+}
+
+.menu a {
+    display: block;
+    padding: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgb(245, 240, 240);
+}
