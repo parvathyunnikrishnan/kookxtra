@@ -1,6 +1,11 @@
 .ftr-ptn {
-    /*position: fixed;
-    bottom: 0;*/
+    position: fixed;
+    background: #21384a;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: white;
 }
 
 footer span {}
@@ -8,11 +13,6 @@ footer span {}
 .footer-fixed {
     display: flex;
     justify-content: space-evenly;
-    background: #21384a;
-    color: white;
-    margin-top: 500px;
-    padding: 16px;
-    font-size: 18px;
 }
 
 .footer-fixed a {
