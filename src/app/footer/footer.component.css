@@ -1,21 +1,18 @@
 .ftr-ptn {
     position: fixed;
-    background: #21384a;
     bottom: 0;
     width: 100%;
-    text-align: center;
-    padding: 10px;
-    color: white;
+    text-align: left;
+    padding: 40px;
+    border-top: solid 1px #FDCD06;
+    padding-bottom: 30px;
+    background-color: white;
 }
 
-footer span {}
-
-.footer-fixed {
-    display: flex;
-    justify-content: space-evenly;
-}
+.footer-fixed {}
 
 .footer-fixed a {
     text-decoration: none;
-    color: white;
+    color: #7f6703;
+    padding: 34px 22px 15px 68px;
 }

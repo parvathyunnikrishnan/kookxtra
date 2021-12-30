@@ -10,14 +10,16 @@
 
 .menu {
     list-style-type: none;
-    font-size: 25px;
     display: flex;
-    justify-content: center;
+    /*justify-content: space-evenly;*/
     margin-bottom: 0;
     margin-top: 0;
-    position: relative;
-    background: #21384a;
+    /*position: relative;*/
+    position: fixed;
+    width: 100%;
     top: 0;
+    background-color: white;
+    border-bottom: 1px solid #FDCD06;
 }
 
 .menu a {
@@ -25,8 +27,8 @@
     padding: 50px;
     text-decoration: none;
     font-weight: 500;
-    font-family: Helvetica, sans-serif;
-    font-size: 18px;
+    font-family: Lato, Verdana, san-serif;
     text-transform: uppercase;
-    color: rgb(245, 240, 240);
+    color: #7f6703;
+    font-size: .75rem;
 }
