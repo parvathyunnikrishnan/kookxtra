@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { AboutUsComponent } from './aboutus/about-us.component';
-import { ContactFormComponent } from './contactform/contact-form.component';
+import { AboutUsComponent } from './aboutUs/about-us.component';
+import { ContactFormComponent } from './contactForm/contact-form.component';
 import { ContactUsComponent } from './contactus/contact-us.component';
-import { PrivacyPolicyComponent } from './privacypolicy/privacy-policy.component';
-import {SiteMapComponent } from './sitemap/site-map.component';
-import {TermsAndConditionComponent } from './terms and condition/terms-and-condition.component';
+import { PrivacyPolicyComponent } from './privacyPolicy/privacy-policy.component';
+import {SiteMapComponent } from './siteMap/site-map.component';
+import {TermsAndConditionComponent } from './terms And Condition/terms-and-condition.component';
 import { RouterModule,Routes } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
