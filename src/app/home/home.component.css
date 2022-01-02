@@ -37,7 +37,8 @@
 
 .container-01 {
     display: flex;
-    padding-top: 120px;
+    /*padding-top: 120px;*/
+    padding-top: 59px;
     justify-content: space-evenly;
 }
 
@@ -94,8 +95,8 @@
 .container-02 {
     display: flex;
     padding-left: 106px;
-    padding-bottom: 150px;
-    padding-top: 250px;
+    /* padding-top: 250px;*/
+    padding-top: 178px;
 }
 
 .cnt-dv-prt {
@@ -245,6 +246,6 @@
 .ft-cnt-alg {
     /* padding-bottom: 180px;*/
     position: relative;
-    /*bottom: 404px;*/
-    bottom: 310px;
+    /*bottom: 310px;*/
+    bottom: 349px;
 }
