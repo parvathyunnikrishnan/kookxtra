@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Routes } from '@angular/router';
 import { PrivacyPolicyComponent } from '../privacyPolicy/privacy-policy.component';
 import { SiteMapComponent } from '../siteMap/site-map.component';
-import { TermsAndConditionComponent } from '../terms And Condition/terms-and-condition.component';
+import { TermsAndConditionComponent } from '../termsAndCondition/terms-and-condition.component';
 @Component({
     selector: 'app-footer',
     templateUrl: './footer.component.html',

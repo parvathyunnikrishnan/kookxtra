@@ -5,14 +5,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './aboutUs/about-us.component';
 import { ContactFormComponent } from './contactForm/contact-form.component';
-import { ContactUsComponent } from './contactus/contact-us.component';
+import { ContactUsComponent } from './contactUs/contact-us.component';
 import { PrivacyPolicyComponent } from './privacyPolicy/privacy-policy.component';
 import {SiteMapComponent } from './siteMap/site-map.component';
-import {TermsAndConditionComponent } from './terms And Condition/terms-and-condition.component';
+import {TermsAndConditionComponent } from './termsAndCondition/terms-and-condition.component';
 import { RouterModule,Routes } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { FooterModule} from './footer/footer.module'
+import { headerModule } from './header/header.module'
 
 
 const routes: Routes = [
@@ -37,14 +38,16 @@ const routes: Routes = [
     PrivacyPolicyComponent,
     SiteMapComponent,
     TermsAndConditionComponent,
-    HeaderComponent,
-    FooterComponent
+    // HeaderComponent,
+    // FooterComponent
    
   
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
+    FooterModule,
+    headerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

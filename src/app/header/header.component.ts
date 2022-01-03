@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Routes } from '@angular/router';
 import { AboutUsComponent } from '../aboutUs/about-us.component';
 import { ContactFormComponent } from '../contactForm/contact-form.component';
-import { ContactUsComponent } from '../contactus/contact-us.component';
+import { ContactUsComponent } from '../contactUs/contact-us.component';
 
 @Component({
   selector: 'app-header',
