@@ -1,9 +1,9 @@
-/*.hd-stl img {
-    height: 50vh;
+.hd-stl video {
+    /*height: 50vh;*/
     position: relative;
-    top: 100px;
+    top: 0;
     width: 100%;
-}*/
+}
 
 .cnt-alg-prt img {
     height: 100px;
