@@ -15,9 +15,7 @@ export class HeaderComponent {
 
 }
 const routes: Routes = [
-
 { path: 'about-us', component:AboutUsComponent},
 { path: 'contact-form', component:  ContactFormComponent },
-  { path: 'contact-us', component:  ContactUsComponent },
-  
+{ path: 'contact-us', component:  ContactUsComponent },
 ];

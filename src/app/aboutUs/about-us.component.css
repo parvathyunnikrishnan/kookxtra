@@ -1,0 +1,95 @@
+.pic-agn {
+    height: 50vh;
+}
+
+.hd-01-alc {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container-01 {}
+
+.cl-fnt-01 {
+    font-size: 2.65rem;
+    color: #648D3C;
+    font-family: 'Lato', Verdana, san-serif;
+    font-weight: 400;
+    word-spacing: -4.5px;
+    letter-spacing: -0.5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.alg-pg-fs {
+    display: flex;
+    justify-content: center;
+    color: #808080 !important;
+    font-size: 1.125rem;
+    width: 57%;
+    margin-left: 313px;
+    margin-top: 40px;
+    /* font-weight: 400; */
+    /* font-family: Lato, Verdana, san-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.cl-fnt-02 {
+    font-size: 2.65rem;
+    color: #648D3C;
+    font-family: 'Lato', Verdana, san-serif;
+    font-weight: 400;
+    word-spacing: -4.5px;
+    letter-spacing: -0.5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.alg-pg-se {
+    display: flex;
+    justify-content: center;
+    color: #808080 !important;
+    font-size: 1.125rem;
+    width: 57%;
+    margin-left: 313px;
+    margin-top: 40px;
+    /* font-weight: 400; */
+    /* font-family: Lato, Verdana, san-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.container-03 {
+    padding-top: 81px;
+    padding-bottom: 158px;
+    background-color: #feea96;
+    /* padding: 80px;*/
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 40px;
+}
+
+.cl-fnt-03 {
+    font-size: 2rem;
+    color: #648D3C;
+    font-family: 'Lato', Verdana, san-serif;
+    font-weight: 400;
+    word-spacing: -4.5px;
+    letter-spacing: -0.5px;
+}
+
+.btn-dsn {
+    border: solid 1px #FDCD06;
+    display: inline-block;
+    margin: 5px 0 0 0;
+    padding: 15px 75px;
+    border-radius: 6px;
+    white-space: nowrap;
+    transition: all .4s;
+    text-decoration: none;
+    background-color: #648d3c;
+    color: #fff;
+    font-size: 16px;
+}
