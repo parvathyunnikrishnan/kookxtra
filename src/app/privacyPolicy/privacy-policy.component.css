@@ -1,0 +1,39 @@
+.cnt-o1-stl {
+    display: flex;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    padding-top: 25px;
+}
+
+.cnt-o2-stl {
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+}
+
+.container-01 {
+    padding-top: 50px;
+}
+
+.cl-fnt-01 {
+    font-size: 2.75rem;
+    color: #648D3C;
+    font-family: 'Lato', Verdana, san-serif;
+    font-weight: 400;
+    word-spacing: -4.5px;
+    letter-spacing: -0.5px;
+}
+
+.container {
+    margin: 100px;
+}
+
+.cl-fnt-03 {
+    font-size: 16px;
+    color: #648D3C;
+    font-family: 'Lato', Verdana, san-serif;
+    font-weight: 400;
+}
+
+.ds-cnt {
+    display: flex;
+}
