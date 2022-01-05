@@ -3,6 +3,7 @@ import { Routes } from '@angular/router';
 import { AboutUsComponent } from '../aboutUs/about-us.component';
 import { ContactFormComponent } from '../contactForm/contact-form.component';
 import { ContactUsComponent } from '../contactUs/contact-us.component';
+import { FaqComponent } from '../faq/faq.component';
 
 @Component({
   selector: 'app-header',
@@ -18,4 +19,6 @@ const routes: Routes = [
 { path: 'about-us', component:AboutUsComponent},
 { path: 'contact-form', component:  ContactFormComponent },
 { path: 'contact-us', component:  ContactUsComponent },
+{ path: 'faq', component: FaqComponent },
+
 ];
