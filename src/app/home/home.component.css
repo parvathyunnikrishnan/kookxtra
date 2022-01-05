@@ -44,16 +44,19 @@
 
 .cnt-alg-prt {
     text-align: center;
+    width: 25% !important;
 }
 
 .pr-cnt {
     display: flex;
     width: 272px;
+    line-height: 2.5 !important;
+    margin-left: 120px;
 }
 
 .hd-cnt {
     color: #252525;
-    font-size: 1.125rem;
+    font-size: 11px;
     font-family: 'Lato', Verdana, san-serif;
     font-weight: 400;
     padding-bottom: 15px;
@@ -97,6 +100,8 @@
     /*height: 300px;
     width: 150px;*/
     margin-top: -121px;
+    width: 273px;
+    height: 428px;
 }
 
 .container-02 {
@@ -111,7 +116,7 @@
 }
 
 .cnt-dv-prt p {
-    width: 81%;
+    width: 83%;
     font-size: 16px;
     line-height: 27px;
     font-family: 'Lato', Verdana, san-serif;
@@ -249,7 +254,7 @@
     padding-top: 0px;
     justify-content: space-evenly;
     position: relative;
-    top: -330px;
+    top: 35px;
     /*width: 100%;*/
 }
 
@@ -266,4 +271,73 @@
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.ld-ps-cnt {
+    position: relative;
+    bottom: 565px;
+}
+
+.ld-01-sct {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+
+.ld-02-sct {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 67px;
+}
+
+.ld-03-sct {
+    color: rgb(255, 119, 15);
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    width: 78%;
+    margin-left: 146px;
+}
+
+.container {
+    position: relative;
+    bottom: 179px;
+}
+
+.hnr-fst-sct {
+    display: flex;
+    margin-left: 100px;
+}
+
+.hnr-01 {
+    display: flex;
+    font-size: 14px;
+    font-family: 'Lato', Verdana, san-serif;
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+    width: 79%;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+.btn-dsn-ds {
+    border: solid 1px #FDCD06;
+    display: inline-block;
+    margin: 5px 0 0 0;
+    padding: 10px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+    transition: all .4s;
+    text-decoration: none;
+    background-color: #648d3c;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 89px;
+}
+
+#btn-st {
+    margin-left: 29px;
 }

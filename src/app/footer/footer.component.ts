@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Routes } from '@angular/router';
 import { PrivacyPolicyComponent } from '../privacyPolicy/privacy-policy.component';
-import { SiteMapComponent } from '../siteMap/site-map.component';
+/*import { SiteMapComponent } from '../siteMap/site-map.component';*/
 import { TermsAndConditionComponent } from '../termsAndCondition/terms-and-condition.component';
 @Component({
     selector: 'app-footer',
@@ -16,5 +16,5 @@ const routes: Routes = [
 
       { path: 'privacy-policy', component:  PrivacyPolicyComponent },
       { path: 'terms-and-condition', component: TermsAndConditionComponent },
-      { path: 'site-map', component:  SiteMapComponent },
+     /* { path: 'site-map', component:  SiteMapComponent },*/
     ];

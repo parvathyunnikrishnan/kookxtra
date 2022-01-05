@@ -8,7 +8,9 @@
     background-repeat: no-repeat;
 }
 
-.container-01 {}
+.container-01 {
+    padding-top: 100px;
+}
 
 .cl-fnt-01 {
     font-size: 2.65rem;

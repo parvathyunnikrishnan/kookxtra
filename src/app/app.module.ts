@@ -7,7 +7,7 @@ import { AboutUsComponent } from './aboutUs/about-us.component';
 import { ContactFormComponent } from './contactForm/contact-form.component';
 import { ContactUsComponent } from './contactUs/contact-us.component';
 import { PrivacyPolicyComponent } from './privacyPolicy/privacy-policy.component';
-import {SiteMapComponent } from './siteMap/site-map.component';
+/*import {SiteMapComponent } from './siteMap/site-map.component';*/
 import {TermsAndConditionComponent } from './termsAndCondition/terms-and-condition.component';
 import { RouterModule,Routes } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
@@ -24,7 +24,7 @@ const routes: Routes = [
   { path: 'contact-us', component:  ContactUsComponent },
   { path: 'privacy-policy', component:  PrivacyPolicyComponent },
   { path: 'terms-and-condition', component: TermsAndConditionComponent },
-  { path: 'site-map', component:  SiteMapComponent },
+  /*{ path: 'site-map', component:  SiteMapComponent },*/
 
 ];
 
@@ -36,7 +36,7 @@ const routes: Routes = [
     ContactFormComponent,
     ContactUsComponent,
     PrivacyPolicyComponent,
-    SiteMapComponent,
+    /*SiteMapComponent,*/
     TermsAndConditionComponent,
     // HeaderComponent,
     // FooterComponent
