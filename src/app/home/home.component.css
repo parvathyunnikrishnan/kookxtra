@@ -11,7 +11,7 @@
 }
 
 .fst-sct-al {
-    padding-top: 53px;
+    padding-top: 120px;
 }
 
 .fst-sct-al span {
@@ -51,7 +51,6 @@
     display: flex;
     width: 272px;
     line-height: 2.5 !important;
-    margin-left: 120px;
 }
 
 .hd-cnt {
@@ -232,7 +231,8 @@
 }
 
 #alg-02-sct {
-    margin-left: 65px;
+    /* margin-left: 65px;*/
+    width: 100%;
 }
 
 .img-bg-dsg img {
@@ -254,7 +254,7 @@
     padding-top: 0px;
     justify-content: space-evenly;
     position: relative;
-    top: 35px;
+    top: 0px;
     /*width: 100%;*/
 }
 
@@ -326,18 +326,32 @@
 .btn-dsn-ds {
     border: solid 1px #FDCD06;
     display: inline-block;
-    margin: 5px 0 0 0;
-    padding: 10px 10px;
+    margin: -5px 0 0 0;
+    padding: 5px 18px;
     border-radius: 6px;
     white-space: nowrap;
     transition: all .4s;
     text-decoration: none;
     background-color: #648d3c;
     color: #fff;
-    font-size: 16px;
-    margin-left: 89px;
+    font-size: 13px;
 }
 
-#btn-st {
-    margin-left: 29px;
+#alg-03-sct {
+    margin-left: 0px;
+    margin-top: 12px;
+    width: 95%;
+}
+
+.pr-cnt-sect {
+    display: flex;
+    color: #252525 !important;
+    font-family: 'Lato', Verdana, san-serif;
+    font-size: 14px;
+    line-height: 1.5 !important;
+}
+
+.img-cs-lv {
+    width: 88% !important;
+    height: 126px !important;
 }
