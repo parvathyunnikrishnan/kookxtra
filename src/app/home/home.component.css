@@ -74,27 +74,6 @@
     line-height: 1.5 !important;
 }
 
-
-/*.container-01 {
-    display: flex;
-    padding: 80px;
-    justify-content: center;
-    margin-left: 134px;
-}
-
-.hd-cnt {
-    color: #648D3C !important;
-    display: flex;
-}
-
-.pr-cnt {
-    font-family: 'Lato', Verdana, san-serif;
-    font-size: 16px;
-    line-height: 1.5 !important;
-    color: #666;
-    text-align: center;
-}*/
-
 .container-02 img {
     /*height: 300px;
     width: 150px;*/
@@ -205,11 +184,6 @@
     font-size: 16px;
     margin-left: 149px;
 }
-
-
-/*.container-05 {
-    padding-top: 354px;
-}*/
 
 .container-05 img {
     height: 300px;
