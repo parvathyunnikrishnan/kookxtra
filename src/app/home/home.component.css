@@ -338,9 +338,10 @@
 }
 
 #alg-03-sct {
-    margin-left: 0px;
+    margin-left: 13px;
     margin-top: 12px;
     width: 95%;
+    text-align: left;
 }
 
 .pr-cnt-sect {
@@ -353,5 +354,16 @@
 
 .img-cs-lv {
     width: 88% !important;
-    height: 126px !important;
+    height: 133px !important;
+}
+
+.pr-cnt-sct1 {
+    display: flex;
+    width: 272px;
+    line-height: 2.5 !important;
+    color: #252525 !important;
+    font-family: 'Lato', Verdana, san-serif;
+    font-size: .875rem;
+    line-height: 2 !important;
+    margin-left: 129px;
 }
