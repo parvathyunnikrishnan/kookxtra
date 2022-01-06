@@ -59,6 +59,7 @@
     font-family: 'Lato', Verdana, san-serif;
     font-weight: 400;
     padding-bottom: 15px;
+    line-height: 1.5;
 }
 
 .hd-cnt-snd {
@@ -79,7 +80,7 @@
     width: 150px;*/
     margin-top: -121px;
     width: 273px;
-    height: 428px;
+    height: 478px;
 }
 
 .container-02 {
@@ -340,4 +341,13 @@
     font-size: .875rem;
     line-height: 2 !important;
     margin-left: 129px;
+}
+
+.hd-cnt-aut {
+    color: #252525;
+    font-size: 11px;
+    font-family: 'Lato', Verdana, san-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+    line-height: 1.5;
 }
