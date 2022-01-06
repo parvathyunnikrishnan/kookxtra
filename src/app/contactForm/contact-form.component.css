@@ -1,5 +1,5 @@
 .container-04 {
-    position: relative;
+    /*position: relative;
     float: right;
     bottom: 1050px;
     /* padding-right: 200px;*/
@@ -14,17 +14,17 @@
     font-family: 'Lato', Verdana, san-serif;
 }
 
-.frm-btn {
+.cnt-frm-btn {
     background-color: #648d3c;
     display: inline-block;
-    margin: 5px 0 0 0;
-    padding: 10px 10px;
+    margin: 26px 0 0 0;
+    padding: 13px 62px;
     border: none;
     border-radius: 6px;
     white-space: nowrap;
     color: #fff;
     font-size: 16px;
-    margin-left: 149px;
+    margin-left: 194px;
 }
 
 .img-bg-dsg img {
@@ -53,7 +53,16 @@
     padding-left: 10px;
 }
 
-.chk-alg {}
+.chk-alg {
+    position: relative;
+    right: 255px;
+    top: 16px;
+}
+
+.chk-alg-lbl {
+    position: relative;
+    left: 30px;
+}
 
 textarea {
     width: 65%;
