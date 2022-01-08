@@ -4,6 +4,8 @@ import { AboutUsComponent } from '../aboutUs/about-us.component';
 import { ContactFormComponent } from '../contactForm/contact-form.component';
 import { ContactUsComponent } from '../contactUs/contact-us.component';
 import { FaqComponent } from '../faq/faq.component';
+import { BecomeACookComponent } from '../becomeACook/become-a-cook.component';
+
 
 @Component({
   selector: 'app-header',
@@ -20,5 +22,5 @@ const routes: Routes = [
 { path: 'contact-form', component:  ContactFormComponent },
 { path: 'contact-us', component:  ContactUsComponent },
 { path: 'faq', component: FaqComponent },
-
+{ path: 'become-a-cook', component: BecomeACookComponent },
 ];

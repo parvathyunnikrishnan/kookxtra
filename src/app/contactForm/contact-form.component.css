@@ -53,6 +53,10 @@
     padding-left: 10px;
 }
 
+.frm-inp-st input:hover {
+    border: 1px solid dodgerblue;
+}
+
 .chk-alg {
     position: relative;
     right: 255px;
@@ -67,6 +71,10 @@
 textarea {
     width: 65%;
     height: 100px;
+}
+
+textarea:hover {
+    border: 1px solid dodgerblue;
 }
 
 .frm-inp-st p {

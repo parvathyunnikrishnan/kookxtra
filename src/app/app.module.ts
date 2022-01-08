@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FooterModule} from './footer/footer.module'
 import { headerModule } from './header/header.module'
 import { FaqComponent } from './faq/faq.component';
+import { BecomeACookComponent } from './becomeACook/become-a-cook.component';
 
 
 
@@ -27,6 +28,8 @@ const routes: Routes = [
   { path: 'privacy-policy', component:  PrivacyPolicyComponent },
   { path: 'terms-and-condition', component: TermsAndConditionComponent },
   { path: 'faq', component: FaqComponent },
+  { path: 'become-a-cook', component: BecomeACookComponent },
+
   /*{ path: 'site-map', component:  SiteMapComponent },*/
 
 ];
@@ -44,6 +47,7 @@ const routes: Routes = [
     // HeaderComponent,
     // FooterComponent
     FaqComponent,
+    BecomeACookComponent
 
    
   
