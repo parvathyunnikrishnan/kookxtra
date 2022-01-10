@@ -264,6 +264,18 @@
     width: 100%;
 }
 
+
+/*.ld-ps-cnt {
+    background-image: none !important;
+    padding: 13% 0;
+    overflow: hidden;
+    color: #ffffff;
+    background-color: #f1f7f4;
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}*/
+
 .ld-ps-cnt {
     position: relative;
     bottom: 506px;
