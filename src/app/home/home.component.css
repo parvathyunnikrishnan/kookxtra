@@ -5,6 +5,22 @@
     /* width: 100%;*/
 }
 
+.vd-alg {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.vd-alg:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: transparent;
+    background: black;
+    opacity: 0.35;
+    top: 0;
+}
+
 .cnt-alg-prt img {
     height: 100px;
     width: 100px;
@@ -20,7 +36,7 @@
 }
 
 .cl-fnt-01 {
-    font-size: 2.65rem;
+    font-size: 3rem;
     color: #648D3C;
     font-family: 'Lato', Verdana, san-serif;
     font-weight: 400;
@@ -250,7 +266,11 @@
 
 .ld-ps-cnt {
     position: relative;
-    bottom: 565px;
+    bottom: 506px;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 90%;
 }
 
 .ld-01-sct {
@@ -269,11 +289,12 @@
 }
 
 .ld-03-sct {
-    color: rgb(255, 119, 15);
+    /* color: rgb(255, 119, 15);*/
+    color: #fff;
     font-size: 20px;
     text-align: center;
     display: flex;
-    width: 78%;
+    width: 80%;
     margin-left: 146px;
 }
 
@@ -302,14 +323,15 @@
     border: solid 1px #FDCD06;
     display: inline-block;
     margin: -5px 0 0 0;
-    padding: 5px 18px;
+    padding: 15px 18px;
     border-radius: 6px;
     white-space: nowrap;
     transition: all .4s;
     text-decoration: none;
-    background-color: #648d3c;
+    /*background-color: #648d3c;*/
+    background: #000;
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 #alg-03-sct {
