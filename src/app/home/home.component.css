@@ -36,7 +36,7 @@
 }
 
 .cl-fnt-01 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(58, 58, 58);
     font-family: 'Lato', Verdana, san-serif;
     font-weight: 400;
@@ -54,7 +54,7 @@
 .container-01 {
     display: flex;
     /*padding-top: 120px;*/
-    padding-top: 59px;
+    padding-top: 30px;
     justify-content: space-evenly;
 }
 
