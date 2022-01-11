@@ -19,7 +19,8 @@
     width: 100%;
     top: 0;
     background-color: #ffffff;
-    border-bottom: 1px solid #FDCD06;
+    /*border-bottom: 1px solid #FDCD06;*/
+    border-bottom: 1px solid #ff770f;
 }
 
 .menu a {
@@ -31,6 +32,6 @@
     font-weight: 500;
     font-family: Lato, Verdana, san-serif;
     text-transform: uppercase;
-    color: #7f6703;
+    color: #545454;
     font-size: .75rem;
 }

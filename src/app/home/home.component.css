@@ -37,7 +37,7 @@
 
 .cl-fnt-01 {
     font-size: 3rem;
-    color: #648D3C;
+    color: rgb(58, 58, 58);
     font-family: 'Lato', Verdana, san-serif;
     font-weight: 400;
     word-spacing: -4.5px;
@@ -94,16 +94,19 @@
 .container-02 img {
     /* margin-top: -121px;
     width: 273px;
-    height: 478px;*/
-    margin-top: -216px;
+    height: 478px;
+    margin-top: -216px;*/
     width: 382px;
-    height: 656px;
+    /* height: 656px;*/
 }
 
 .container-02 {
     display: flex;
     padding-left: 35px;
-    margin-top: 178px;
+    /* margin-top: 178px;*/
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .cnt-dv-prt {
@@ -121,7 +124,7 @@
 
 .cnt-dv-prt h1 {
     font-size: 2rem;
-    color: #648D3C;
+    color: rgb(58, 58, 58);
     font-family: 'Lato', Verdana, san-serif;
     font-weight: 400;
     padding-top: 15px;
@@ -335,16 +338,15 @@
 }
 
 .btn-dsn-ds {
-    border: solid 1px #FDCD06;
+    border: none;
     display: inline-block;
-    margin: -5px 0 0 0;
+    margin: -5px 0 0;
     padding: 15px 18px;
-    border-radius: 6px;
+    border-radius: 30px;
     white-space: nowrap;
     transition: all .4s;
     text-decoration: none;
-    /*background-color: #648d3c;*/
-    background: #000;
+    background: radial-gradient(rgb(6, 147, 227) 0%, rgb(155, 81, 224) 0%);
     color: #fff;
     font-size: 15px;
 }
@@ -353,7 +355,7 @@
     margin-left: 13px;
     margin-top: 12px;
     width: 95%;
-    text-align: left;
+    text-align: center;
 }
 
 .pr-cnt-sect {
