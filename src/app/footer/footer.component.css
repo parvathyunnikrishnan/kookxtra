@@ -1,22 +1,25 @@
 .ftr-ptn {
-    display: flex;
-    justify-content: center;
     position: fixed;
     z-index: 1;
     bottom: 0;
-    width: 100%;
-    text-align: left;
-    padding: 40px 1px 30px;
+    width: 1293px;
+    text-align: center;
+    padding: 40px 20px 30px;
     /*border-top: solid 1px #FDCD06;*/
     border-top: 1px solid #ff770f;
     padding-bottom: 30px;
     background-color: white;
 }
 
-.footer-fixed {}
+.footer-fixed {
+    width: 1517px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 .footer-fixed a {
     text-decoration: none;
-    color: #7f6703;
+    color: #545454;
     padding: 34px 150px 15px 57px;
 }
