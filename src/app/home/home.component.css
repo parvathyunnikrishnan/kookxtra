@@ -92,17 +92,17 @@
 }
 
 .container-02 img {
-    /*height: 300px;
-    width: 150px;*/
-    margin-top: -121px;
+    /* margin-top: -121px;
     width: 273px;
-    height: 478px;
+    height: 478px;*/
+    margin-top: -216px;
+    width: 382px;
+    height: 656px;
 }
 
 .container-02 {
     display: flex;
-    padding-left: 106px;
-    /* padding-top: 250px;*/
+    padding-left: 35px;
     margin-top: 178px;
 }
 
@@ -224,6 +224,7 @@
 #alg-02-sct {
     /* margin-left: 65px;*/
     width: 100%;
+    text-align: left;
 }
 
 .img-bg-dsg img {
@@ -313,6 +314,8 @@
 .container {
     position: relative;
     bottom: 179px;
+    max-width: 1250px;
+    margin: 0 auto;
 }
 
 .hnr-fst-sct {
