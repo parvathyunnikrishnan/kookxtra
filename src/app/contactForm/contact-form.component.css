@@ -52,6 +52,7 @@
     line-height: inherit;
     overflow: visible;
     padding-left: 10px;
+    outline: none;
 }
 
 .frm-inp-st input:hover {
@@ -74,6 +75,7 @@ textarea {
     width: 64%;
     height: 100px;
     color: #545454;
+    outline: none;
 }
 
 textarea:hover {
