@@ -81,3 +81,15 @@ textarea:hover {
 .frm-inp-st p {
     width: 69%;
 }
+
+.inp1 {
+    width: 27% !important;
+    position: relative;
+    top: 56px;
+}
+
+.inp2 {
+    position: relative;
+    width: 27% !important;
+    left: 287px;
+}
