@@ -1,7 +1,7 @@
 .container-04 {
-    position: relative;
+    /* position: relative;
     float: right;
-    bottom: 1050px;
+    bottom: 1050px;*/
     /* padding-right: 200px;*/
     padding-left: 200px;
     margin: 130px;
@@ -55,7 +55,7 @@
 }
 
 .frm-inp-st input:hover {
-    border: 1px solid dodgerblue;
+    border: 1px solid dodgerblue !important;
 }
 
 .chk-alg {
@@ -70,7 +70,7 @@
 }
 
 textarea {
-    width: 65%;
+    width: 64%;
     height: 100px;
 }
 
@@ -92,4 +92,34 @@ textarea:hover {
     position: relative;
     width: 27% !important;
     left: 287px;
+}
+
+.container {
+    background: #f5f5f5;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.slc-opt {
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background: #fcfcfc;
+    width: 65%;
+    margin: 0;
+    font-family: 'Lato', Verdana, san-serif;
+    font-size: 13px;
+    line-height: inherit;
+    /*overflow: visible;*/
+    padding-left: 10px;
+}
+
+select:focus {
+    border: 1px solid dodgerblue;
+}
+
+.lbl-slc {
+    color: #545454;
+    font-weight: 400;
+    font-size: 13px;
 }

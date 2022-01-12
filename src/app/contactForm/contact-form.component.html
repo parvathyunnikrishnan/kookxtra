@@ -1,10 +1,10 @@
 <app-header></app-header>
 <app-footer></app-footer>
 
-<section>
-    <div class="img-bg-dsg">
+<section class="container">
+    <!--<div class="img-bg-dsg">
         <img src="./assets/home-page-image-white-01.png">
-    </div>
+    </div>-->
     <div class="container-04">
         <!--<h1>Learn more about becoming a cook</h1>-->
         <form class="frm-inp-st">
@@ -19,9 +19,20 @@
 
             <input type="text" name="cook" placeholder="What Cuisine do you cook? *" value=""><br/>
 
-            <input type="number" name="kvk" placeholder="Do you have a Dutch KVK number? *" value=""><br/>
-
-            <input type="number" name="vat" placeholder="Do you have a Dutch VAT number *" value=""><br/>
+            <!--<input type="number" name="kvk" placeholder="Do you have a Dutch KVK number? *" value=""><br/>
+            <input type="number" name="vat" placeholder="Do you have a Dutch VAT number *" value=""><br/>-->
+            <label class="lbl-slc">Do you have a Dutch KVK number? *</label><br/>
+            <select class="slc-opt" name="kvk" id="kvk">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                
+              </select><br/><br/>
+            <label class="lbl-slc">Do you have a Dutch VAT number? *</label><br/>
+            <select class="slc-opt" name="vat" id="vat">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                
+              </select><br/><br/>
             <textarea id="" name="kookxtra">KookXtra is committed to protecting and respecting your privacy, and we’ll only use your personal information to administer your account and to provide the products and services you requested from us. From time to time, we would like to contact you about our products and services, as well as other content that may be of interest to you. If you consent to us contacting you for this purpose, please tick below to say how you would like us to contact you
             </textarea>
             <input class="chk-alg" type="checkbox" id="" name="" value="I agree to receive other communications from KookXtra"><label class="chk-alg-lbl" for=""> I agree to receive other communications from KookXtra</label>
