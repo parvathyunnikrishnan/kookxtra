@@ -114,9 +114,9 @@
 }
 
 .cnt-dv-prt p {
-    width: 83%;
+    width: 90%;
     font-size: 16px;
-    line-height: 27px;
+    line-height: 24px;
     font-family: 'Lato', Verdana, san-serif;
     color: rgb(102, 102, 102);
     font-weight: 400;
@@ -127,9 +127,10 @@
     color: rgb(58, 58, 58);
     font-family: 'Lato', Verdana, san-serif;
     font-weight: 400;
-    padding-top: 15px;
+    padding-top: 87px;
     word-spacing: -5.5px;
     letter-spacing: 0.5px;
+    line-height: 6px;
 }
 
 .container-03 {
