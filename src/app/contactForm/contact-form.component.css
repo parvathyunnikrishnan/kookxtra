@@ -15,12 +15,12 @@
 }
 
 .cnt-frm-btn {
-    background-color: #648d3c;
+    background: radial-gradient(rgb(6, 147, 227) 0%, rgb(155, 81, 224) 0%);
     display: inline-block;
     margin: 26px 0 0 0;
     padding: 13px 62px;
     border: none;
-    border-radius: 6px;
+    border-radius: 30px;
     white-space: nowrap;
     color: #fff;
     font-size: 16px;
@@ -44,7 +44,7 @@
     border: 1px solid #ececec;
     border-radius: 5px;
     padding: 10px 30px;
-    background: #fcfcfc;
+    /* background: #fcfcfc;*/
     width: 60%;
     margin: 0;
     font-family: 'Lato', Verdana, san-serif;
@@ -67,11 +67,13 @@
 .chk-alg-lbl {
     position: relative;
     left: 30px;
+    color: #545454;
 }
 
 textarea {
     width: 64%;
     height: 100px;
+    color: #545454;
 }
 
 textarea:hover {
@@ -80,6 +82,7 @@ textarea:hover {
 
 .frm-inp-st p {
     width: 69%;
+    color: #545454;
 }
 
 .inp1 {
@@ -112,6 +115,7 @@ textarea:hover {
     line-height: inherit;
     /*overflow: visible;*/
     padding-left: 10px;
+    color: #545454;
 }
 
 select:focus {
