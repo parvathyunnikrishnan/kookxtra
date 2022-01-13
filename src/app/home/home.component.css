@@ -64,9 +64,10 @@
 }
 
 .pr-cnt {
+    color: rgb(102, 102, 102) !important;
     display: flex;
     width: 272px;
-    line-height: 2.5 !important;
+    line-height: 1.5 !important;
 }
 
 .hd-cnt {
@@ -85,10 +86,9 @@
 }
 
 .pr-cnt {
-    color: #252525 !important;
+    /* color: #252525 !important;*/
     font-family: 'Lato', Verdana, san-serif;
     font-size: .875rem;
-    line-height: 1.5 !important;
 }
 
 .container-02 img {
@@ -361,7 +361,7 @@
 
 .pr-cnt-sect {
     display: flex;
-    color: #252525 !important;
+    color: rgb(102, 102, 102);
     font-family: 'Lato', Verdana, san-serif;
     font-size: 14px;
     line-height: 1.5 !important;
@@ -384,7 +384,7 @@
 }
 
 .hd-cnt-aut {
-    color: #252525;
+    color: rgb(102, 102, 102);
     font-size: 11px;
     font-family: 'Lato', Verdana, san-serif;
     font-weight: 400;
@@ -436,4 +436,13 @@
 
 .wd-02 {
     width: 425px !important;
+}
+
+.hd-cnt-fnt {
+    color: #252525;
+    font-size: 18px;
+    font-family: 'Lato', Verdana, san-serif;
+    font-weight: 600;
+    padding-bottom: 15px;
+    line-height: 1.5;
 }
