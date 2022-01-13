@@ -227,7 +227,7 @@
 
 #alg-02-sct {
     /* margin-left: 65px;*/
-    width: 100%;
+    width: 67%;
     text-align: left;
 }
 
@@ -390,4 +390,50 @@
     font-weight: 400;
     padding-bottom: 15px;
     line-height: 1.5;
+}
+
+.container-07 {
+    /* display: flex;*/
+    padding-top: 0px;
+    justify-content: space-evenly;
+    position: relative;
+    top: 0px;
+    /*width: 100%;*/
+}
+
+.img-cs-07 {
+    width: 35%;
+}
+
+.cnt-alg-07 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.cnt-sect-07 {
+    width: 50%;
+}
+
+.stp-num {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 1;
+    margin: 0;
+    color: #dfdddd;
+}
+
+#dv-prt-07 {
+    justify-content: space-between;
+    margin-left: 70px;
+}
+
+#cnt-wdt-07 {
+    width: 43%;
+}
+
+.wd-02 {
+    width: 425px !important;
 }
