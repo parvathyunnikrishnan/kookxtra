@@ -288,8 +288,6 @@
     text-align: center;
     margin: 0 auto;
     max-width: 96%;
-    /*text-shadow: 5px 5px 8px black;*/
-    filter: drop-shadow(10px 10px 10px rgba(58, 58, 58));
     font-weight: 400;
 }
 
@@ -306,6 +304,8 @@
     color: rgb(255, 255, 255);
     font-size: 20px;
     line-height: 67px;
+    text-shadow: 5px 5px 8px black;
+    filter: drop-shadow(10px 10px 10px rgba(58, 58, 58));
 }
 
 .ld-03-sct {
@@ -316,6 +316,8 @@
     display: flex;
     width: 80%;
     margin-left: 146px;
+    text-shadow: 5px 5px 8px black;
+    filter: drop-shadow(10px 10px 10px rgba(58, 58, 58));
 }
 
 .container {
