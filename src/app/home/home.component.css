@@ -289,7 +289,7 @@
     margin: 0 auto;
     max-width: 96%;
     /*text-shadow: 5px 5px 8px black;*/
-    filter: drop-shadow(16px 16px 10px black);
+    filter: drop-shadow(10px 10px 10px rgba(58, 58, 58));
     font-weight: 400;
 }
 
