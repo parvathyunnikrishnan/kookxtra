@@ -288,9 +288,9 @@
     text-align: center;
     margin: 0 auto;
     max-width: 96%;
-    text-shadow: 5px 5px 8px black;
+    /*text-shadow: 5px 5px 8px black;*/
     filter: drop-shadow(16px 16px 10px black);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .ld-01-sct {
