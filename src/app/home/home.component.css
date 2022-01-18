@@ -1,27 +1,3 @@
-/*.hd-stl video {
-   
-    position: relative;
-    top: 0;
-   
-    background: black;
-}
-
-.vd-alg {
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
-.hd-stl video:after {
-    content: ' ';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: transparent;
-    opacity: 0.35;
-    top: 0;
-}*/
-
 .cnt-alg-prt img {
     height: 100px;
     width: 100px;
@@ -93,12 +69,7 @@
 }
 
 .container-02 img {
-    /* margin-top: -121px;
-    width: 273px;
-    height: 478px;
-    margin-top: -216px;*/
     width: 382px;
-    /* height: 656px;*/
 }
 
 .container-02 {
@@ -256,9 +227,7 @@
 }
 
 .ft-cnt-alg {
-    /* padding-bottom: 180px;*/
     position: relative;
-    /*bottom: 310px;*/
     bottom: 349px;
 }
 
@@ -269,57 +238,6 @@
     justify-content: center;
     width: 100%;
 }
-
-
-/*.ld-ps-cnt {
-    background-image: none !important;
-    padding: 13% 0;
-    overflow: hidden;
-    color: #ffffff;
-    background-color: #f1f7f4;
-    background-position: left;
-    background-size: cover;
-    position: relative;
-}*/
-
-
-/*.ld-ps-cnt {
-    position: relative;
-    bottom: 506px;
-    text-align: center;
-    margin: 0 auto;
-    max-width: 96%;
-    font-weight: 400;
-}
-
-.ld-01-sct {
-    display: flex;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-size: 100px;
-}
-
-.ld-02-sct {
-    display: flex;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    line-height: 67px;
-    text-shadow: 5px 5px 8px black;
-    filter: drop-shadow(10px 10px 10px rgba(58, 58, 58));
-}
-
-.ld-03-sct {
-   
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-    display: flex;
-    width: 80%;
-    margin-left: 146px;
-    text-shadow: 5px 5px 8px black;
-    filter: drop-shadow(10px 10px 10px rgba(58, 58, 58));
-}*/
 
 .container {
     position: relative;
@@ -374,8 +292,8 @@
 }
 
 .img-cs-lv {
-    width: 88% !important;
-    height: 133px !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .pr-cnt-sct1 {

@@ -51,7 +51,7 @@
     font-size: 13px;
     line-height: inherit;
     overflow: visible;
-    padding-left: 10px;
+    /* padding-left: 10px;*/
     outline: none;
 }
 
@@ -88,15 +88,15 @@ textarea:hover {
 }
 
 .inp1 {
-    width: 27% !important;
+    width: 25% !important;
     position: relative;
     top: 56px;
 }
 
 .inp2 {
     position: relative;
-    width: 27% !important;
-    left: 287px;
+    width: 25% !important;
+    left: 305px;
 }
 
 .container {
