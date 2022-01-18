@@ -1,3 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
-.cnt-alg-07.ftr-ptn {}
+.flickity-button-icon,
+.flickity-button,
+.flickity-page-dots {
+    display: none !important;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+    cursor: unset !important;
+}

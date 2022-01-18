@@ -72,7 +72,7 @@
 }
 
 textarea {
-    width: 64%;
+    width: 66%;
     height: 100px;
     color: #545454;
     outline: none;
@@ -88,15 +88,17 @@ textarea:hover {
 }
 
 .inp1 {
-    width: 25% !important;
+    width: 27% !important;
     position: relative;
-    top: 56px;
+    /*top: 56px;*/
+    top: 18px;
+    float: left;
 }
 
 .inp2 {
     position: relative;
-    width: 25% !important;
-    left: 305px;
+    width: 26% !important;
+    /*left: 305px;*/
 }
 
 .container {
@@ -110,7 +112,7 @@ textarea:hover {
     border-radius: 5px;
     padding: 10px 30px;
     background: #fcfcfc;
-    width: 65%;
+    width: 67%;
     margin: 0;
     font-family: 'Lato', Verdana, san-serif;
     font-size: 13px;
