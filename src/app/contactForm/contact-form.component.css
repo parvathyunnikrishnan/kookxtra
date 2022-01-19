@@ -43,7 +43,7 @@
     border: 1px solid #ececec;
     border-radius: 5px;
     /*padding: 10px 30px;*/
-    width: 100%;
+    width: 97%;
     height: 40px;
     margin: 0;
     font-family: 'Lato', Verdana, san-serif;
@@ -72,19 +72,24 @@
 .chk-bx-cnt {
     color: #545454;
     width: 545px;
+    font-family: 'Lato', Verdana, san-serif;
+    font-size: 12px;
 }
 
 .chk-alg-lbl {
     /* position: relative;
     left: 30px;*/
     color: #545454;
+    font-family: 'Lato', Verdana, san-serif;
+    font-size: 13px;
 }
 
 textarea {
-    width: 100%;
+    width: 99%;
     height: 100px;
     color: #545454;
     outline: none;
+    font-family: 'Lato', Verdana, san-serif;
 }
 
 textarea:hover {
@@ -101,7 +106,7 @@ textarea:hover {
     position: relative;
     top: 18px;
     float: left;*/
-    width: 48% !important;
+    width: 46% !important;
     position: relative;
     top: 40px;
 }
@@ -111,8 +116,8 @@ textarea:hover {
     width: 48% !important;
     left: 10px;*/
     position: relative;
-    width: 48% !important;
-    left: 13px;
+    width: 46% !important;
+    left: -3px;
     bottom: 23px;
     float: right;
 }
@@ -136,6 +141,7 @@ textarea:hover {
     line-height: inherit;
     /* padding-left: 10px;*/
     color: #545454;
+    padding-left: 10px;
 }
 
 select:focus {
@@ -146,4 +152,7 @@ select:focus {
     color: #545454;
     font-weight: 400;
     font-size: 13px;
+    font-family: 'Lato', Verdana, san-serif;
+    position: relative;
+    bottom: 4px;
 }
