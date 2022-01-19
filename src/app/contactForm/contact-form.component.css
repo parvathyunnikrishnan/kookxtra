@@ -51,6 +51,7 @@
     line-height: inherit;
     overflow: visible;
     outline: none;
+    padding-left: 10px;
 }
 
 .frm-inp-st input:hover {
@@ -96,16 +97,24 @@ textarea:hover {
 }
 
 .inp1 {
-    width: 49% !important;
+    /* width: 49% !important;
     position: relative;
     top: 18px;
-    float: left;
+    float: left;*/
+    width: 48% !important;
+    position: relative;
+    top: 40px;
 }
 
 .inp2 {
+    /* position: relative;
+    width: 48% !important;
+    left: 10px;*/
     position: relative;
     width: 48% !important;
-    left: 10px;
+    left: 13px;
+    bottom: 23px;
+    float: right;
 }
 
 .container {
