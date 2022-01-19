@@ -1,5 +1,5 @@
 <app-header></app-header>
-<app-footer></app-footer>
+
 
 <section class="container">
     <!--<div class="img-bg-dsg">
@@ -7,19 +7,20 @@
     </div>-->
     <div class="container-04">
         <!--<h1>Learn more about becoming a cook</h1>-->
-        <form class="frm-inp-st">
-            <div>
-                <input class="inp1" type="text" name="fname" placeholder="First Name *" value=""><br/>
-            </div>
-            <div>
-                <input class="inp2" type="text" name="fname" placeholder="Last Name *" value=""><br/>
-            </div>
+        <form>
+            <div class="frm-inp-st">
+                <div>
+                    <div> <input class="inp1" type="text" name="fname" placeholder="First Name *" value=""><br/></div>
 
-            <input type="text" name="email" placeholder="Email *" value=""><br/>
 
-            <input type="number" name="contact" placeholder="Contact Number *" value=""><br/>
+                    <div> <input class="inp2" type="text" name="fname" placeholder="Last Name *" value=""><br/></div>
+                </div>
 
-            <input type="text" name="cook" placeholder="What Cuisine do you cook? *" value=""><br/>
+                <input type="text" name="email" placeholder="Email *" value=""><br/>
+
+                <input type="number" name="contact" placeholder="Contact Number *" value=""><br/>
+
+                <input type="text" name="cook" placeholder="What Cuisine do you cook? *" value=""><br/></div>
 
             <!--<input type="number" name="kvk" placeholder="Do you have a Dutch KVK number? *" value=""><br/>
             <input type="number" name="vat" placeholder="Do you have a Dutch VAT number *" value=""><br/>-->
@@ -37,11 +38,13 @@
                 
               </select><br/><br/>
             <textarea id="" name="kookxtra">KookXtra is committed to protecting and respecting your privacy, and we’ll only use your personal information to administer your account and to provide the products and services you requested from us. From time to time, we would like to contact you about our products and services, as well as other content that may be of interest to you. If you consent to us contacting you for this purpose, please tick below to say how you would like us to contact you
-            </textarea>
-            <input class="chk-alg" type="checkbox" id="" name="" value="I agree to receive other communications from KookXtra"><label class="chk-alg-lbl" for=""> I agree to receive other communications from KookXtra</label>
+            </textarea><br/><br/>
+            <span style=" display: flex; width: 100%;">
+            <input class="chk-alg" type="checkbox" id="" name="" value="I agree to receive other communications from KookXtra"><label class="chk-alg-lbl" for=""> I agree to receive other communications from KookXtra</label></span><br/>
+            <span style=" display: flex; width: 100%;">
             <input class="chk-alg" type="checkbox" id="" name="" value="I agree to allow KookXtra to store and process my personal data">
-            <label class="chk-alg-lbl" for="">I agree to allow KookXtra to store and process my personal data.*</label><br>
-            <p>In order to provide you the content requested, we need to store and process your personal data. If you consent to us storing your personal data for this purpose, please tick the checkbox.</p>
+            <label class="chk-alg-lbl" for="">I agree to allow KookXtra to store and process my personal data.*</label></span>
+            <p class="chk-bx-cnt">In order to provide you the content requested, we need to store and process your personal data. If you consent to us storing your personal data for this purpose, please tick the checkbox.</p>
             <textarea id="" name="kookxtra">You can unsubscribe from these communications at any time. For more information on how to unsubscribe, our privacy practices, and how we are committed to protecting and respecting your privacy, please review our Privacy Policy.
             </textarea><br/>
             <button class="cnt-frm-btn">Submit</button>
@@ -49,3 +52,4 @@
         </form>
     </div>
 </section>
+<app-footer></app-footer>

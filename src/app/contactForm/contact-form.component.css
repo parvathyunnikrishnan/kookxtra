@@ -1,10 +1,12 @@
 .container-04 {
-    /* position: relative;
-    float: right;
-    bottom: 1050px;*/
-    /* padding-right: 200px;*/
-    padding-left: 200px;
-    margin: 130px;
+    /* padding-left: 200px;
+    margin: 130px;*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 .container-04 h1 {
@@ -29,29 +31,25 @@
 
 .img-bg-dsg img {
     background-size: cover;
-    /*background-position: center center;*/
     background-repeat: no-repeat;
     width: 100%;
-    /*height:100%*/
     height: 160vh;
     object-fit: cover;
     opacity: 0.2;
-    /* background-image: url('../../assets/home-page-image-white-01.png');*/
 }
 
 .frm-inp-st input {
     display: flex;
     border: 1px solid #ececec;
     border-radius: 5px;
-    padding: 10px 30px;
-    /* background: #fcfcfc;*/
-    width: 60%;
+    /*padding: 10px 30px;*/
+    width: 100%;
+    height: 40px;
     margin: 0;
     font-family: 'Lato', Verdana, san-serif;
     font-size: 13px;
     line-height: inherit;
     overflow: visible;
-    /* padding-left: 10px;*/
     outline: none;
 }
 
@@ -60,19 +58,29 @@
 }
 
 .chk-alg {
-    position: relative;
+    /*position: relative;
     right: 255px;
-    top: 16px;
+    top: 16px;*/
+    right: 0;
+    width: 37px !important;
+    display: inherit;
+    padding: 0;
+    top: 0;
+}
+
+.chk-bx-cnt {
+    color: #545454;
+    width: 545px;
 }
 
 .chk-alg-lbl {
-    position: relative;
-    left: 30px;
+    /* position: relative;
+    left: 30px;*/
     color: #545454;
 }
 
 textarea {
-    width: 66%;
+    width: 100%;
     height: 100px;
     color: #545454;
     outline: none;
@@ -88,17 +96,16 @@ textarea:hover {
 }
 
 .inp1 {
-    width: 27% !important;
+    width: 49% !important;
     position: relative;
-    /*top: 56px;*/
     top: 18px;
     float: left;
 }
 
 .inp2 {
     position: relative;
-    width: 26% !important;
-    /*left: 305px;*/
+    width: 48% !important;
+    left: 10px;
 }
 
 .container {
@@ -110,15 +117,15 @@ textarea:hover {
 .slc-opt {
     border: 1px solid #ececec;
     border-radius: 5px;
-    padding: 10px 30px;
+    /*padding: 10px 30px;*/
+    height: 40px;
     background: #fcfcfc;
-    width: 67%;
+    width: 100%;
     margin: 0;
     font-family: 'Lato', Verdana, san-serif;
     font-size: 13px;
     line-height: inherit;
-    /*overflow: visible;*/
-    padding-left: 10px;
+    /* padding-left: 10px;*/
     color: #545454;
 }
 
