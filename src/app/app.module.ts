@@ -7,7 +7,7 @@ import { AboutUsComponent } from './aboutUs/about-us.component';
 import { ContactFormComponent } from './contactForm/contact-form.component';
 import { ContactUsComponent } from './contactUs/contact-us.component';
 import { PrivacyPolicyComponent } from './privacyPolicy/privacy-policy.component';
-/*import {SiteMapComponent } from './siteMap/site-map.component';*/
+
 import {TermsAndConditionComponent } from './termsAndCondition/terms-and-condition.component';
 import { RouterModule,Routes } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
@@ -16,6 +16,7 @@ import { FooterModule} from './footer/footer.module'
 import { headerModule } from './header/header.module'
 import { FaqComponent } from './faq/faq.component';
 import { BecomeACookComponent } from './becomeACook/become-a-cook.component';
+import {CopyrightComponent } from './copyright/copyright.component';
 
 
 
@@ -29,10 +30,8 @@ const routes: Routes = [
   { path: 'terms-and-condition', component: TermsAndConditionComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'become-a-cook', component: BecomeACookComponent },
-
-  /*{ path: 'site-map', component:  SiteMapComponent },*/
-
-];
+  { path: 'copyright', component:  CopyrightComponent }
+ ];
 
 @NgModule({
   declarations: [
@@ -42,7 +41,7 @@ const routes: Routes = [
     ContactFormComponent,
     ContactUsComponent,
     PrivacyPolicyComponent,
-    /*SiteMapComponent,*/
+    CopyrightComponent,
     TermsAndConditionComponent,
     // HeaderComponent,
     // FooterComponent
