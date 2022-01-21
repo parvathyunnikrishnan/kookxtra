@@ -1,6 +1,8 @@
 .cnt-alg-prt img {
-    height: 160px !important;
-    width: 100px;
+    /*height: 250px !important;
+    width: 100px;*/
+    height: 250px !important;
+    width: 350px !important;
 }
 
 .fst-sct-al {
@@ -37,7 +39,7 @@
 
 .cnt-alg-prt {
     text-align: center;
-    width: 25% !important;
+    /*width: 25% !important;*/
 }
 
 .pr-cnt {
@@ -223,6 +225,7 @@
     justify-content: space-evenly;
     position: relative;
     top: 0px;
+    /*right: 27px;*/
     /*width: 100%;*/
 }
 
@@ -274,11 +277,12 @@
     background: radial-gradient(rgb(6, 147, 227) 0%, rgb(155, 81, 224) 0%);
     color: #fff;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 #alg-03-sct {
     margin-top: 15px;
-    width: 95%;
+    width: 366px;
     text-align: center;
 }
 
