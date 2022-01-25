@@ -31,5 +31,7 @@
 @media all and (max-width:768px) {
     .footer-fixed a {
         padding: 0px;
+        color: #545454;
+        font-size: 15px;
     }
 }
