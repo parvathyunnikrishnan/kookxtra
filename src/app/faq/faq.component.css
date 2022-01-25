@@ -52,3 +52,20 @@ hr {
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, .1);
 }
+
+@media all and (max-width:768px) {
+    .cl-fnt-01 {
+        font-size: 1.5rem;
+    }
+    .container {
+        margin: 30px;
+        width: 313px;
+    }
+    .container-01 {
+        width: 331px;
+    }
+    .cl-fnt-01 {
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+}

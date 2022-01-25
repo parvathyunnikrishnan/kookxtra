@@ -157,3 +157,16 @@ select:focus {
     position: relative;
     bottom: 4px;
 }
+
+@media all and (max-width:768px) {
+    .container-04 {
+        display: unset;
+        margin-top: 13px;
+    }
+    .cnt-frm-btn {
+        margin-left: 98px;
+    }
+    .container {
+        padding-bottom: 40px;
+    }
+}

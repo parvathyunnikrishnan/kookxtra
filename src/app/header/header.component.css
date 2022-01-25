@@ -166,15 +166,15 @@
 @media all and (max-width:768px) {
     #menuToggle {
         display: block;
-        left: 0px;
-        top: 0px;
+        left: 10px;
+        top: 7px;
     }
     .menu {
         display: none;
     }
     #menu {
         width: 164px;
-        padding-top: 97px;
+        padding-top: 105px;
     }
     #menu li {
         padding: 5px 0;

@@ -498,7 +498,7 @@
 
 @media all and (max-width:768px) {
     .image {
-        padding-top: 0px;
+        padding-top: 16px;
     }
     /*.image__img {
         width: 676px;
@@ -522,8 +522,13 @@
     .image__title {
         font-size: 20px;
     }
+    /*.image__overlay {
+        width: 50%;
+    }*/
     .image__overlay {
         width: 50%;
+        height: 92%;
+        margin-top: 16px;
     }
     .fst-sct-al {
         padding-top: 35px;
@@ -580,7 +585,4 @@
     /*.container-07 {
         padding-bottom: 298px;
     }*/
-    #menu {
-        width: 168px;
-    }
 }
