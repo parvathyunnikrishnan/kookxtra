@@ -16,7 +16,7 @@ import { FooterModule} from './footer/footer.module'
 import { headerModule } from './header/header.module'
 import { FaqComponent } from './faq/faq.component';
 import { BecomeACookComponent } from './becomeACook/become-a-cook.component';
-import {CopyrightComponent } from './copyright/copyright.component';
+
 
 
 
@@ -30,7 +30,7 @@ const routes: Routes = [
   { path: 'terms-and-condition', component: TermsAndConditionComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'become-a-cook', component: BecomeACookComponent },
-  { path: 'copyright', component:  CopyrightComponent }
+  
  ];
 
 @NgModule({
@@ -41,7 +41,7 @@ const routes: Routes = [
     ContactFormComponent,
     ContactUsComponent,
     PrivacyPolicyComponent,
-    CopyrightComponent,
+   
     TermsAndConditionComponent,
     // HeaderComponent,
     // FooterComponent

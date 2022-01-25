@@ -39,7 +39,6 @@
 
 .cnt-alg-prt {
     text-align: center;
-    /*width: 25% !important;*/
 }
 
 .pr-cnt {
@@ -454,4 +453,29 @@
 
 .carousel {
     padding-top: 80px;
+}
+
+@media all and (max-width:768px) {
+    .image {
+        padding-top: 145px;
+    }
+    .image__img {
+        width: 676px;
+    }
+    .container-06 {
+        display: unset;
+    }
+    .container {
+        margin-left: 153px;
+        padding-top: 50px;
+    }
+    .btn-dsn-ds {
+        margin-left: 98px;
+    }
+    .fst-sct-al span {
+        width: 352px;
+    }
+    /*.carousel-cell {
+        display: unset;
+    }*/
 }
