@@ -27,3 +27,9 @@
     color: #545454;
     font-size: 15px;
 }
+
+@media all and (max-width:768px) {
+    .footer-fixed a {
+        padding: 0px;
+    }
+}
