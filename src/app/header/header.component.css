@@ -175,13 +175,17 @@
     #menu {
         width: 164px;
         padding-top: 105px;
+        background: #ffffff;
     }
     #menu li {
-        padding: 5px 0;
+        padding: 35px 0;
         font-size: 13px;
     }
     #menuToggle span {
         width: 26px;
         height: 2px;
+    }
+    #menu hr {
+        border-top: 3px solid rgb(212, 209, 209);
     }
 }
