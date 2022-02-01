@@ -343,6 +343,7 @@
 #img-shdw2:hover,
 #img-shdw3:hover {
     box-shadow: 0px 4px 16px rgb(0 0 0 / 12%);
+    opacity: 0.5;
 }
 
 .img-cs-07:focus:not([data-focus-visible-added]) {
