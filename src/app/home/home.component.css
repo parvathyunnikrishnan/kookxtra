@@ -642,6 +642,18 @@
     .slider {
         width: 100% !important;
     }
+    #alg-03-sct {
+        font-size: 12px;
+    }
+    .image__overlay1 {
+        height: 79% !important;
+    }
+    .image1 {
+        margin-top: 22px;
+    }
+    .image__img1 {
+        height: 247px !important;
+    }
 }
 
 @-webkit-keyframes scroll {
